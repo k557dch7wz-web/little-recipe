@@ -1,0 +1,10 @@
+dist/
+site.tar.gz
+pages/
+api/
+.DS_Store
+.wrangler/
+node_modules/
+.dev.vars
+.env
+.env.*

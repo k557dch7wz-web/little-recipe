@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "little-recipe-import",
+  "main": "api/worker.js",
+  "compatibility_date": "2026-10-19",
+  "workers_dev": true,
+  "vars": {
+    "ALLOWED_ORIGIN": "https://k557dch7wz-web.github.io"
+  }
+}

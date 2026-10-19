@@ -1,0 +1,12 @@
+{
+  "name": "little-recipe",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs && node scripts/preview.mjs",
+    "test": "node --test tests/recipe.test.mjs",
+    "build:pages": "node scripts/build-pages.mjs"
+  }
+}
